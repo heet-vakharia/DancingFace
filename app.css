@@ -1,0 +1,17 @@
+svg {
+  height: 70%;
+  width: 100%;
+}
+.container {
+  background: url("https://i.imgur.com/8UPvAdD.png");
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
