@@ -1,7 +1,9 @@
-svg {
-  height: 70%;
-  width: 100%;
+/* Body */
+body {
+  margin: 0;
+  padding: 0;
 }
+/* SVG Container */
 .container {
   background: url("https://i.imgur.com/8UPvAdD.png");
   height: 100vh;
@@ -11,7 +13,8 @@ svg {
   justify-content: center;
   background-position: center;
 }
-body {
-  margin: 0;
-  padding: 0;
+/* Main SVG */
+svg {
+  height: 70%;
+  width: 100%;
 }

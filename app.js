@@ -1,6 +1,8 @@
+// Initialing GSAP timeline
 const tl = new TimelineMax();
-
+// Adding Label
 tl.add("handStart");
+// Left Hand
 tl.fromTo(
   "#Hand1",
   0.6,
@@ -21,7 +23,7 @@ tl.fromTo(
   },
   "handStart"
 );
-
+// Right Hand
 tl.fromTo(
   "#Hand2",
   0.6,
@@ -42,6 +44,7 @@ tl.fromTo(
   },
   "handStart-=1"
 );
+// Face
 tl.fromTo(
   "#Face",
   1,

@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="app.css" />
-    <title>Dancing Face</title>
-  </head>
-  <body>
-    <div class="container">
-      <svg
+ <svg
         id="Layer_2"
         data-name="Layer 2"
         xmlns="http://www.w3.org/2000/svg"
@@ -219,11 +208,3 @@
           />
         </g>
       </svg>
-    </div>
-    <!-- Gsap  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
-    <!-- Custom Script -->
-    <script src="app.js"></script>
-  </body>
-</html>
